@@ -1,0 +1,152 @@
+
+body {margin:0;
+background-color: #f5f7f9 !important ;}
+
+.navbar {
+  overflow: hidden;
+  z-index: 1000;
+  background-color: #fff;
+  position: fixed !important;
+  top: 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ padding: 0px !important;
+  width: 100%;
+}
+.center{
+  margin-top: 60px !important;;
+  
+ padding: 0px !important;
+  margin: 0 auto;
+}
+.nMargin{
+margin-bottom: -39px;}
+.navbar a {
+  float: left;
+  /* display: block; */
+  color: #bbc3cf;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #fff;
+  color: #596474;
+}
+video{
+  padding: 0px;
+  width: 100%;
+  margin-bottom: -5px;
+}
+.videoTitle{
+  background-color: #fff;
+  padding: 35px;
+  color: #596474;
+}
+.part{
+    background-color: #1a8af3;
+}.part a:hover{
+
+    background-color: #1a8af3;
+}
+.container-fluid{
+  
+ padding: 0px !important;
+}
+.row{
+  margin: 0px !important;
+}
+.main {
+  
+  margin-top: 30px;
+  height: 1500px; /* Used in this example to enable scrolling */
+}
+.video{color: #fff;
+
+  /* height: 37%; */
+  margin: 0 auto;
+  padding-top: 25px;
+  background-color: #1a8af3;
+  text-align: center;
+}
+.z-index{
+  z-index: 100;
+}
+img{
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+}
+.heightF
+{width: 100%;
+  /* height: 50%; */
+}
+.pad{
+  padding: 20px;
+}
+.padZero{
+  padding: 0px !important;
+  margin: 0px !important;
+}
+.showVideo{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.cardC{
+  background-color: #ffc526;
+  /* height: 40%; */
+}
+.blog{
+  
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: #fff;
+  padding: 50px;
+  margin: 0 auto;
+  text-align: center;
+  color: #545c68;
+  margin-top: -100px;
+}
+br{
+  color: #ccc;
+}
+.authName{
+  margin: 0 auto;
+  text-align: center;
+}
+.linkA{
+  color: #ffc526 !important;
+  text-decoration: none;
+  cursor: pointer;
+  -moz-text-decoration-line: none;
+}
+.brand{
+  margin-bottom: -50px;
+  margin-top: 30px;
+  color: #fff;
+}
+.marginB{
+margin-bottom: 20px;}
+
+.card-title{
+  color: #545c68 !important;
+}
+.card-body {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 10px !important;}
+  
+  .event{
+    margin-bottom: -40px;
+    margin-top: 50px;
+  }
+  .footer{
+    position: relative;
+    bottom: 0;
+    text-align: center;
+    padding: 60px;
+    background-color: #fff;
+  }
+  .footImg{
+    width: 40%;
+  }
