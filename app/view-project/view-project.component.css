@@ -1,0 +1,176 @@
+.container{
+    margin: 0;
+}
+.contPro{
+     background-color: #f7f8fa;
+    margin: 0;
+}
+.marginIm{
+        margin-top: 11px;
+
+}
+.searchBox{
+height: 38px;
+	width: 410px;
+    	border: 1px solid #C7C7C7;	
+        border-radius: 3px;
+        	background-color: #FAFBFC;
+                margin-top: 15px;
+              	font-family: Roboto;
+                  color: #363636;
+                  	font-size: 13px;	line-height: 15px;
+              background-image:url( '../../assets/images/ic_search.png');
+                background-position: 8px 12px;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+}
+
+.dpDiv{
+        text-align: right;
+         padding-right: 15px;
+
+        margin-top: 20px;
+}
+
+.right{
+     text-align: right;
+            padding-right: 40px;
+    margin-top: 13px;}
+
+.headTop{
+            padding-left: 50px;
+                padding-right: 50px;
+
+            height: 70px;
+            
+            	
+            	background-color: #FFFFFF;
+
+                	box-shadow: 0 0px 1px 0 rgba(0,0,0,0.5), 0 4px 6px 0 rgba(232,234,238,0.63);}
+
+
+                    
+.mainBody{
+     padding-left: 36px ;
+                padding-right: 30px;
+                    
+}
+.heading{
+    	height: 28px;
+        display: block;
+           white-space: nowrap;
+            font-family: Roboto;
+            	font-size: 24px;
+                	font-weight: 500;
+                    	line-height: 28px;
+                        margin-top: 15px;
+                            margin-left: 18px;
+
+}
+.sideHead{
+  
+      	color: #FFFFFF;	font-family: "Proxima Nova";
+      	font-size: 9px;	font-weight: 600;
+          	line-height: 9px;
+     padding: 5px 7px 4px 7px;
+              vertical-align: text-bottom;
+    margin-left: 10px;
+    	border-radius: 2px;	background-color: #2B2B2B;
+}
+.textHead{
+    
+    	border-radius: 4px;
+    padding: 35px 39px 37px 34px;
+
+    margin: 20px 0 0 0;
+
+        	background-color: #FFFFFF;	box-shadow: 0 2px 4px 0 rgba(135,143,158,0.15);
+}
+.desHead{
+    margin: 26px 0 0 0;
+    padding: 0 0 0 0;
+    font-size: 13px;
+}
+              .forget{
+   color: #535353;
+    
+     }
+
+.forget:hover {
+   color: #535353;
+    text-decoration: none; 
+}
+.sourceCode{
+        margin: 30px 0 0 0;
+padding: 10px 0 0 0;
+   	
+    	border-radius: 4px;	background-color: #FFFFFF;	box-shadow: 0 2px 4px 0 rgba(135,143,158,0.15);
+
+}
+.table{
+    color: #535353;
+    
+}
+.headSource{
+    
+    white-space: nowrap;
+    padding: 14px 0 0 32px;
+    height: 25px;	color: #1B1B1B;	font-family: Roboto;
+    	font-size: 22px;	line-height: 25px;
+}
+.sourceTable{
+ 	color: #777777;	
+         border: 0;
+
+padding: 46px 96px 25px 29px;
+    font-family: Roboto;	font-size: 14px;	font-weight: 500;	line-height: 16px;
+}
+ul{
+    
+    margin-top: 0;
+    margin-bottom: 3rem;
+}
+li{
+    padding: 2px 0px 0 1px;
+        list-style-type: none; text-decoration: underline;
+}
+.sideCatagory{  
+        cursor: pointer;
+  margin-top: 2%;
+    padding: 0px 0 0 88px;
+    text-align: left;
+    	color: #535353;	font-family: Roboto;	font-size: 14px;	line-height: 24px;}
+ p{    padding: 0px 0 0px 40px;
+    font-weight: bold;
+    color: #1B1B1B;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 15px;
+    margin-bottom: 4px;
+}
+
+.table>tbody>tr>td,
+ .table>tbody>tr>th, 
+ .table>tfoot>tr>td,
+  .table>tfoot>tr>th, 
+  .table>thead>tr>td, 
+  .table>thead>tr>th {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 0px;
+     border-bottom: 0px;}
+
+
+
+.footer{
+    color: #6C7275;	font-family: Roboto;	
+    background-color: #DCE1E4;
+    width:100%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+     padding: 8px 0px 8px 80px;
+position: absolute;
+    font-size: 10px;	line-height: 11px;}

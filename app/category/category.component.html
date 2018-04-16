@@ -1,0 +1,90 @@
+<div class="contPro">
+    <app-header></app-header>
+<!--
+<div class=" headTop">
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 ">
+            <a routerLink="/dashboard"><img class="marginIm" src="./assets/images/logo_horizontal.png"> </a>
+        </div>
+
+
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 text-right ">
+
+             
+                 
+
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 dpDiv ">
+            <div ngbDropdown class="d-inline-block">
+                <span id="dropdownBasic1" ngbDropdownToggle> <a  class="forget"><img src="./assets/images/dp.PNG"> </a>
+            <a class="forget" > <img src="./assets/images/dropdown_name.png"> </a>
+           </span>
+                <div ngbDropdownMenu aria-labelledby="dropdownBasic1" class="dropDown">
+                    <app-logout></app-logout>
+
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+</div>-->
+    <div class="mainBody">
+        <div class="row">
+            
+                <div class="col-md-6">
+                    <div class="heading"> <b>Search Project</b></div>
+                </div>
+                 <!--<div class="col-md-6 text-right"> 
+                     <a routerLink="/dashboard" class="btn btn-dark" style="margin-top:7px">Search Again</a>
+                 </div>-->
+            
+        </div>
+
+        <div class="container-fluid">
+            <div *ngIf="group.length==0" class="text-center">
+               <span class="heading"> No Record Found </span>
+            </div>
+            <div class="row">
+                <div *ngFor="let pro of group" class="col-md-3 ">
+                    <div class="project">
+                        <div class="proHead"> {{pro.name | uppercase}}</div>
+                        <!--<div>
+                            <label class="subHead">   ANGULAR      </label>
+                            <label class="sideHead">      UI/UX</label></div>-->
+                        <div class="message">
+                            {{pro.description}}
+                        </div>
+                        <div class="viewProject">
+                            <b><a [routerLink]="['viewProject', pro.name,pro.id,pro.description]" class="forget">View Project </a> </b>
+                        </div>
+
+
+                    </div>
+
+
+
+
+
+                </div>
+                
+
+            </div>
+
+
+        </div>
+      
+
+
+    </div>
+
+
+
+
+
+
+    <div class="footer">
+        ©2018 XAV Digital Stack | All rights reserved
+    </div>
+</div>

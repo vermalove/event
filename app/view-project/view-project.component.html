@@ -1,0 +1,93 @@
+<div class="contPro">
+<app-header></app-header>
+<div class="container-fluid">
+
+    <div class="mainBody">
+        <div class="col-md-12">
+           <div class="row">
+           <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+         <div class="heading"> <b>{{headName | uppercase}}</b>
+           <!--<label class="sideHead">UI/UX</label>-->
+           </div>
+         
+           </div>
+           </div>
+<div class="row" >
+       <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 ">
+<div class="textHead"  >
+
+<div >
+  <h2> {{des || " No Description available for this group."}}   </h2>
+</div> 
+<!--<div class="desHead">
+    AppAuth is a client SDK for native apps to authenticate and authorize end-users via <b>OAuth 2.0</b> and <b>OpenID</b> Connect that implements modern security and usability best practices. It is available for iOS, macOS, Android, and Native JS environments.
+</div>-->
+</div>
+<div class="sourceCode">
+    <div class="headSource"> Source Code
+    </div>
+ <div class="table-responsive sourceTable">          
+  <table class="table">
+    <thead>
+      <tr>
+        <th>PROJECT LIST </th>
+        <th>DESCRIPTION</th>
+        <th></th>
+        <th></th>
+       
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let list of project">
+        <td><a href="{{list.web_url}}" target="_blank">{{list.name}}</a></td>
+        <td  >{{list.description}}</td>
+        <td>{{list.star_count}} Stars</td>
+        <td>{{list.forks_count}} Forks</td>
+       
+      
+    </tbody>
+  </table>
+  </div>
+
+           </div>
+           </div>
+          <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3  sideCatagory ">
+
+<p>Categories</p>
+<ul>
+  <li>Security</li>
+  <li >Mobile</li>
+</ul>
+
+<p>LANGUAGES</p>
+<ul>
+  <li>Java</li>
+  <li>Javascript</li>
+  <li>Objective-c</li>
+<li>Swift</li>
+</ul>
+
+<p>TAGS</p>
+<ul>
+  <li>Oauth</li>
+  <li>Openid</li>
+  <li>Connect</li>
+  <li>Oidc</li>
+  <li>Appauth</li>
+  <li>Native</li>
+  <li>Apps</li>
+</ul>
+           </div>
+       
+
+
+</div> 
+
+
+</div>
+    </div>
+</div>
+  <div class="footer">
+        ©2018 XAV Digital Stack | All rights reserved
+    </div>
+</div>

@@ -1,0 +1,177 @@
+.container{
+    margin: 0;
+}
+.contPro{
+    background-color: #f7f8fa;
+    margin: 0;
+}
+.marginIm{
+        margin-top: 11px;
+
+}
+.searchBox{
+height: 38px;
+	width: 410px;
+    	border: 1px solid #C7C7C7;	
+        border-radius: 3px;
+        	background-color: #FAFBFC;
+                margin-top: 15px;
+              	font-family: Roboto;
+                  color: #363636;
+                  	font-size: 13px;	line-height: 15px;
+              background-image:url( '../../assets/images/ic_search.png');
+               background-position: 8px 12px;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+}
+            
+
+.dpDiv{
+        text-align: right;
+         padding-right: 15px;
+
+        margin-top: 20px;
+}
+
+.right{
+     text-align: right;
+            padding-right: 40px;
+    margin-top: 13px;}
+
+.headTop{
+            padding-left: 50px;
+                padding-right: 50px;
+
+            height: 70px;
+            
+            	background-color: #FFFFFF;
+	box-shadow: 0 0px 1px 0 rgba(0,0,0,0.5), 0 4px 6px 0 rgba(232,234,238,0.63);}
+              
+.mainBody{
+     padding-left: 36px;
+                padding-right: 30px;
+
+     height: 100vh;
+}
+.heading{
+    	height: 28px;	width: 90px;
+           white-space: nowrap;
+            font-family: Roboto;
+            	font-size: 24px;
+                	font-weight: 500;
+                    	line-height: 28px;
+                        margin-top: 15px;
+}
+.project{
+  height: 204px;	
+  border-radius: 4px;
+  	background-color: #FFFFFF;
+      	box-shadow: 0 9px 14px 0 rgba(135,143,158,0.15);
+         
+              margin-right: 10px;
+    margin-bottom: 14px;
+    margin-top: 25px;
+    padding: 0;
+}
+.proHead{
+
+   height: 27%;
+    background: url('../../assets/images/project1_bg.png') right 0 no-repeat #2f4f7d;
+    border-radius: 4px 4px 0 0;
+    color: #fff;
+    font-family: "Blogger Sans";
+    font-weight: 500;
+    line-height: 20px;
+    font-size: 15px;
+    padding: 20px 0 0 18px;
+}
+                
+.proHeadOne{
+
+   height: 27%;
+    background: url('../../assets/images/project2_bg.png') right 0 no-repeat #495464;
+    border-radius: 4px 4px 0 0;
+    color: #fff;
+    font-family: "Blogger Sans";
+    font-weight: 500;
+    line-height: 20px;
+    font-size: 15px;
+    padding: 20px 0 0 18px;
+}
+          
+.subHead{  
+       margin: 12px 4px 0px 16px;
+    padding: 4px;
+ font-family: "Proxima Nova";
+ 	font-size: 8px;	font-weight: 600;
+     color: #345584;
+     	line-height: 9px;	text-align: center;
+    
+                    border: 1px solid #345584;	border-radius: 2px;	
+        background-color: rgba(52,85,132,0.1);
+
+}
+.sideHead{
+  
+      	color: #FFFFFF;	font-family: "Proxima Nova";
+      	font-size: 8px;	font-weight: 600;
+          	line-height: 9px;
+
+    margin: 5px 0 0 16px;
+
+    padding: 4px;
+    	border-radius: 2px;	background-color: #2B2B2B;
+}
+.message{
+      margin: 20px 13px 6px 16px;
+
+    color: #3F3F3F;
+    font-family: Roboto;
+    font-size: 13px;
+    line-height: 14px;
+}
+.viewProject{
+    height: 14px;	width: 100px;
+    	color: #000000;	font-family: Roboto;
+        	font-size: 12px;	font-weight: 500;
+            	line-height: 14px;
+             bottom: 0;
+    position: absolute;
+    margin: 1px 0 30px 17px;
+
+        	  background-image:url( '../../assets/images/ic_go.png');
+              
+ background-position: right;
+              background-repeat: no-repeat;}
+
+
+              .forget{
+    color: #000000;	
+    
+     }
+     .menuDrop{
+         width:50px;
+         float: right;
+         right: 0;
+    margin: 7px 0 0 0;
+    top: 100%;
+    left: 73%;
+     }
+     
+
+.forget:hover {
+
+    	color: #000000;	
+    text-decoration: none; 
+}
+
+.footer{
+    color: #6C7275;	font-family: Roboto;	
+    background-color: #DCE1E4;
+    width:100%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+     padding: 8px 0px 8px 80px;
+position: absolute;
+    font-size: 10px;	line-height: 11px;}

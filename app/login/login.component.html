@@ -1,0 +1,25 @@
+<div class="container-fluid">
+	<div class="contFull">
+		<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 conImg Absolute">
+			<div class="leftText">
+				<div><b>
+Deciphering business challenges, the Social way!!! </b></div>
+				<div class="small"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 form ">
+			<form class="Respons form-signin" name="form" (ngSubmit)="onSave(f)" #f="ngForm">
+				<div class="ResponsOne"><img src="./assets/images/logo_big.png"><b> XAV</b> Digital Stack </div>
+				<div class="centerOne"> Sign In </div>
+				<div *ngIf="error_message" class="alert alert-danger"> {{error_message}} </div>
+				<div class=" form-group center "> <input class="form-control text loginID" type="text" name="uname" placeholder="User Name" ngModel id="uname" pattern=""
+					 required autofocus /> </div>
+				<div class="form-group input-group  center"> <input class="form-control text pass" type="password" required name="pswd" ngModel id="pswd" placeholder="Password" />					</div>
+				<div class=" input-group center"> <button type="submit" class="btn signIn">LOGIN</button> </div>
+				<div class=" text-center "  hidden>
+					<a  class="forget">Forget Password ?</a>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,33 @@
+<div class=" headTop">
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 ">
+            <a routerLink="/dashboard"><img class="marginIm" src="./assets/images/logo_horizontal.png"> </a>
+        </div>
+
+
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 ">
+
+            <form name="form" (ngSubmit)="search(f)" #f="ngForm">
+                <input name="searchName" ngModel placeholder="Search" class="search-box  searchBox" />
+                  
+
+
+            </form>
+
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 dpDiv ">
+            <div ngbDropdown class="d-inline-block">
+                <span id="dropdownBasic1" ngbDropdownToggle> <a  class="forget"><img src="./assets/images/dp.PNG"> </a>
+            <!--<a class="forget" > <img src="./assets/images/dropdown_name.png"> </a>-->
+           </span>
+                <div ngbDropdownMenu aria-labelledby="dropdownBasic1" class="dropDown">
+                    <app-logout></app-logout>
+
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+</div>
